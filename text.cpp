@@ -1,10 +1,10 @@
 #include <iostream>
 #include "Text.h"
-void enterText(char *text) {
+void enteringText(char *text) {
     printf("Enter Text :\n");
     fgets(text,99,stdin);
 }
-void printText(char *text)
+void showText(char *text)
 {printf("%s\n",text);}
 void clear(void)
 {
